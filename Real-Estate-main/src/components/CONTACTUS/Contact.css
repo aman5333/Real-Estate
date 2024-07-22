@@ -1,0 +1,29 @@
+.contact__main{
+    height: 60vh;
+    width: 100%;
+}
+
+.contact__main img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact__main__text{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    font-size: 3rem;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .contact__main{
+        height: 35vh;
+    }
+
+    .contact__main__text{
+        font-size: 2rem;
+        top: 11%;
+    }
+}

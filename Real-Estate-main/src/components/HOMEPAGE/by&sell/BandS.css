@@ -1,0 +1,174 @@
+.main__bands{
+    height: 70vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.seller{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.buyer{
+    height: 100%;
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.seller img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.buyer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.seller__section{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    height: 29vh;
+    width: 37vw;
+    z-index: 999;
+    text-align: center;
+    margin: 128px 88px;
+}
+
+.buyer__section{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    height: 29vh;
+    width: 43vw;
+    z-index: 999;
+    text-align: center;
+    margin: 128px 42px;
+}
+
+
+.bs__btn{
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.bs__btn:hover{
+    background: white;
+    color: black;
+}
+
+
+@media (min-width: 0px) and (max-width: 800px) {
+    .main__bands{
+        height: 60vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .seller{
+        height: 48%;
+        width: 100%;
+    }
+    
+    .buyer{
+        height: 48%;
+        width: 100%;
+    }
+    
+    .seller img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.5);
+        border-radius: 20px;
+    }
+    
+    .buyer img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.5);
+        border-radius: 20px;
+    }
+    
+    .seller__section{
+        font-size: 12px;
+        height: 29vh;
+        width: 65vw;
+        margin: -3px 43px;
+    }
+    
+    .buyer__section{
+        font-size: 12px;
+        height: 29vh;
+        width: 72vw;
+        margin: -2px 32px;
+    }
+    
+    
+    .bs__btn{
+        height: 35px;
+        width: 140px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    .main__bands{
+        height: 50vh;
+        width: 100%;
+    }
+    
+    .seller{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .buyer{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .seller img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .buyer img{
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    .seller__section{
+        font-size: 14px;
+        height: 29vh;
+        width: 40vw;
+        margin: 50px 43px;
+    }
+    
+    .buyer__section{
+        font-size: 14px;
+        height: 29vh;
+        width: 45vw;
+        margin: 51px 20px;
+    }
+    
+    
+    .bs__btn{
+        height: 40px;
+        width: 150px;
+    }
+}

@@ -1,0 +1,270 @@
+.home__section{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.section__para{
+    height: 25vh;
+    width: 40vw;
+    margin: 20px auto;
+}
+
+.section__pics{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.section__pic{
+    height: 41vh;
+    width: 17.5vw;
+    border-radius: 20px;
+}
+
+.section__pic p{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 128px 45px;
+}
+
+.section__para2{
+    margin-left: 155px!important;
+}
+
+.section__para1{
+    margin-left: 222px!important;
+}
+
+
+.section__para3{
+    margin-left: 64px!important;
+}
+
+.section__para4{
+    margin-left: 20px!important;
+}
+
+.section__pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.section__box{
+    width: 37vw;
+}
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .home__section{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .section__para{
+        height: 38vh;
+        width: 96vw;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .section__para h1{
+        font-size: 20px;
+    }
+    
+    .section__pics{
+        height: 342vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    
+    .section__pic{
+        width: 93.5vw;
+        border-radius: 20px;
+    }
+    
+    .section__pic p{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 101px 60px;
+    }
+    
+    .section__para2{
+        margin-left: 38px!important;
+    }
+    
+    .section__para1{
+        margin-left: 70px!important;
+    }
+    
+    
+    .section__para3{
+        margin-left: 77px!important;
+    }
+    
+    .section__para4{
+        margin-left: 45px!important;
+    }
+    
+    .section__pic img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .section__box{
+        width: 93.5vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .home__section{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .section__para{
+        height: 25vh;
+        width: 40vw;
+        margin: 20px auto;
+    }
+    
+    .section__pics{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    
+    .section__pic{
+        height: 41vh;
+        width: 17.5vw;
+        border-radius: 20px;
+    }
+    
+    .section__pic p{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 128px 45px;
+    }
+    
+    .section__para2{
+        margin-left: 155px!important;
+    }
+    
+    .section__para1{
+        margin-left: 222px!important;
+    }
+    
+    
+    .section__para3{
+        margin-left: 64px!important;
+    }
+    
+    .section__para4{
+        margin-left: 20px!important;
+    }
+    
+    .section__pic img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .section__box{
+        width: 37vw;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1500px) {
+    .home__section{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .section__para{
+        height: 25vh;
+        width: 65vw;
+        margin: 20px auto;
+    }
+    
+    .section__pics{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    
+    .section__pic{
+        height: 41vh;
+        width: 17.5vw;
+        border-radius: 20px;
+    }
+    
+    .section__pic p{
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        font-weight: 900;
+        margin: 99px 4px;
+    }
+    
+    .section__para2{
+        margin-left: 56px!important;
+    }
+    
+    .section__para1{
+        margin-left: 114px!important;
+    }
+    
+    
+    .section__para3{
+        margin-left: 64px!important;
+    }
+    
+    .section__para4{
+        margin-left: 33px !important;
+        height: 12vh;
+        width: 10vw;
+    }
+    
+    .section__pic img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .section__box{
+        width: 37vw;
+    }
+}

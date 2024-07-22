@@ -1,0 +1,328 @@
+.sell__main {
+    height: 100vh;
+    width: 100%;
+}
+
+.sell__main img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.seller__main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic__box {
+    height: 100%;
+    width: 42%;
+    border-radius: 20px;
+}
+
+.seller__main img {
+    height: 100%;
+    width: 100%;
+}
+
+.seller__form {
+    height: 90%;
+    width: 30%;
+    position: absolute;
+    filter: blur(10px);
+}
+
+.seller__heading {
+    height: 20vh;
+    width: 37vw;
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 38%;
+    left: 30%;
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+}
+
+.form__name {
+    display: flex;
+    column-gap: 15px;
+
+}
+
+.form__number {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form__address {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form__city {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form__city input {
+    width: 126px;
+}
+
+input {
+    height: 40px;
+    width: 197px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+textarea {
+    height: 100px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+form button {
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    margin: 40px 121px;
+}
+
+form button:hover {
+    background: white;
+    color: black;
+}
+
+form h1 {
+    font-family: "Dancing Script";
+    color: white;
+    text-align: center;
+}
+
+.form__div {
+    position: absolute;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .sell__main {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .seller__main {
+        height: 100vh;
+        height: 100vh;
+        margin-top: 2px;
+    }
+
+    .pic__box {
+        height: 100%;
+        width: 42%;
+    }
+
+    .seller__form {
+        height: 90%;
+        width: 100%;
+    }
+
+    .seller__heading {
+        height: 27vh;
+        width: 79vw;
+        top: 8%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .form__name {
+        width: 304px;
+        margin-left: 7px;
+
+    }
+
+    .form__number {
+        width: 304px;
+        margin-left: 7px;
+    }
+
+    .form__address {
+        width: 304px;
+        margin-left: 7px;
+    }
+
+    .form__city {
+        margin-left: 7px;
+    }
+
+    .form__city input {
+        width: 91px;
+    }
+
+    .message {
+        width: 304px;
+        margin-left: 7px;
+    }
+
+    input {
+        height: 35px;
+        width: 145px;
+    }
+
+    textarea {
+        height: 80px;
+        width: 304px;
+    }
+
+    form button {
+        margin: 40px 75px
+    }
+
+    .form__div {
+        position: absolute;
+    }
+}
+
+@media (min-Width: 600px) and (max-width: 1200px) {
+    .seller__heading {
+        height: 32vh;
+        width: 61vw;
+        left: 195px;
+        top: 173px;
+    }
+
+    .seller__form {
+        width: 50%;
+    }
+
+}
+
+/* /-------------------------------------------------------------------------/ */
+.buyer__pagepic {
+    width: 100%;
+    height: 70vh;
+}
+
+.buyer__pagepic h1 {
+    position: absolute;
+    color: white;
+    top: 28%;
+    left: 44%;
+    font-size: 50px;
+}
+
+.buyer__pagepic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buyer__page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.buy__home {
+    height: 56vh;
+    width: 23vw;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition:  1s ease;
+}
+
+.buy__home:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0)
+
+}
+
+.buy__slider {
+    width: 100%;
+    height: 60%;
+}
+
+.buy__info {
+    width: 100%;
+    height: 40%;
+}
+
+.house__name {
+    height: 7vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.bedrooms {
+    height: 7vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.price {
+    height: 7vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.house__name p {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rooms {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.price__price {
+    margin: 0px;
+    font-size: 20px;
+    color: red;
+    font-weight: 900;
+}

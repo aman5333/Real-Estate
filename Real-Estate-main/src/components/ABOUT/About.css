@@ -1,0 +1,609 @@
+.a__main {
+    height: 80vh;
+    width: 100%;
+
+}
+
+.a__main img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.a__para {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+}
+
+.a__heading {
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: fangsong;
+    color: white;
+}
+
+.a__leader {
+    height: 100vh;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leader__info {
+    width: 31vw;
+    height: 78vh;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 16px 0px black;
+}
+
+.leader__name {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: fangsong;
+}
+
+.leader__social {
+    display: flex;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.a__icon {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.a__icon svg {
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.a__link {
+    position: absolute;
+    top: 82%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    color: black;
+}
+
+.a__leader__para {
+    font-size: 1rem;
+}
+
+.leader__pic {
+    width: 35vw;
+    height: 40vw;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 16px 0px black;
+}
+
+.leader__pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(234, 219, 191);
+}
+
+.a__realty {
+    height: 100vh;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: -22px;
+}
+
+.about__realty {
+    height: 25vh;
+    width: 45vw;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+}
+
+.realty__container {
+    height: 57vh;
+    width: 65vw;
+    padding: 10px;
+    justify-content: space-around;
+    position: relative;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our__vision {
+    height: 25vh;
+    width: 48%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.our__mission {
+    height: 25vh;
+    width: 48%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.our__values {
+    height: 25vh;
+    width: 48%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.our__resoures {
+    height: 25vh;
+    width: 48%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.our__heading {
+    font-family: emoji;
+}
+
+.our__vision__para {
+    font-size: 15px;
+    color: #000000b3;
+}
+
+.our__mission__para {
+    font-size: 15px;
+    color: #000000b3;
+}
+
+.our__resoures__para {
+    font-size: 15px;
+    color: #000000b3;
+}
+
+.our__values__para {
+    font-size: 15px;
+    color: #000000b3;
+}
+
+.realty {
+    font-family: emoji;
+}
+
+.a__our__team {
+    height: 80vh;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: -20px;
+}
+
+.our__team {
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    position: relative;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.team__members {
+    height: 40vh;
+    width: 65vw;
+    position: relative;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.member1 {
+    height: 100%;
+    width: 20vw;
+}
+
+.member1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.a__video {
+    height: 70vh;
+    width: 100%;
+}
+
+.a__video video {
+    height: 100%;
+    width: 100%;
+}
+
+.results {
+    height: 60vh;
+    width: 100%;
+}
+
+.results img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.results__heading {
+    position: relative;
+    top: -92%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    width: 12vw;
+}
+
+.a__total {
+    height: 19vh;
+    width: 41vw;
+    position: relative;
+    top: -85%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.count1 {
+    color: white;
+    text-align: center;
+}
+
+.count__heading {
+    color: darkgoldenrod;
+    font-size: 47px;
+    margin: 0px;
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .a__main {
+        height: 60vh;
+    }
+
+    .a__para {
+        top: 5%;
+        width: 89vw;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .a__heading {
+        top: 25%;
+    }
+
+    .a__leader {
+        flex-direction: column;
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .leader__info {
+        width: 95vw;
+        padding: 15px;
+    }
+
+    .leader__name {
+        margin: 0px
+    }
+
+    .leader__social {
+        width: 42vw;
+    }
+
+    .a__icon svg {
+        margin-top: 7px;
+        font-size: 20px;
+    }
+
+    .a__link {
+        top: 129%;
+        left: 74%;
+    }
+
+    .a__leader__para {
+        font-size: 0.9rem;
+    }
+
+    .leader__pic {
+        width: 95vw;
+        height: 95vw;
+    }
+
+    .a__realty {
+        height: 172vh;
+        margin: 0px;
+    }
+
+    .about__realty {
+        height: 41vh;
+        width: 91vw;
+        top: -90px;
+    }
+
+    .realty__container {
+        height: 127vh;
+        width: 100vw;
+        flex-direction: column;
+        top: -372px;
+    }
+
+    .our__vision {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .our__mission {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .our__values {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .our__resoures {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .our__heading {
+        font-family: emoji;
+    }
+
+    .our__vision__para {
+        font-size: 15px;
+        color: #000000b3;
+    }
+
+    .our__mission__para {
+        font-size: 15px;
+        color: #000000b3;
+    }
+
+    .our__resoures__para {
+        font-size: 15px;
+        color: #000000b3;
+    }
+
+    .our__values__para {
+        font-size: 15px;
+        color: #000000b3;
+    }
+
+    .realty {
+        margin: 0px;
+    }
+
+    .realty__para {
+        margin: 0px;
+    }
+
+    .a__our__team {
+        height: 175vh;
+    }
+
+    .our__team {
+        height: 29vh;
+        width: 97vw;
+        top: -6%;
+    }
+
+    .team__members {
+        height: 135vh;
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        top: -32%;
+    }
+
+    .member1 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .a__video {
+        height: 40vh;
+    }
+
+    .results__heading {
+        top: -100%;
+        width: 54vw;
+        left: 50%;
+    }
+
+    .a__total {
+        height: 19vh;
+        width: 96vw;
+        flex-wrap: wrap;
+    }
+
+    .count1 {
+        color: white;
+        text-align: center;
+    }
+
+    .count__heading {
+        font-size: 30px;
+    }
+
+    .count__para {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .a__heading {
+        top: 25%;
+    }
+
+    .a__leader {
+        padding: 30px;
+        height: auto;
+    }
+
+    .leader__info {
+        width: 70vw;
+        height: 61vh;
+        padding: 15px;
+    }
+
+    .leader__name {
+        margin: 0px
+    }
+
+    .leader__social {
+        width: 13vwa;
+    }
+
+    .a__icon svg {
+        margin-top: 7px;
+        font-size: 20px;
+    }
+
+    .a__link {
+        top: 138%;
+        left: 42%;
+    }
+
+    .a__leader__para {
+        font-size: 0.9rem;
+    }
+
+    .leader__pic {
+        width: 75vw;
+        height: 43vw;
+    }
+
+    .a__realty {
+        height: 97vh;
+        margin: 0px;
+    }
+
+    .about__realty {
+        height: 18vh;
+        width: 91vw;
+        top: 0px;
+    }
+
+    .realty__container {
+        height: 67vh;
+        width: 68vw;
+        flex-wrap: wrap;
+        top: -133px;
+    }
+
+    .our__vision {
+        height: 30vh;
+        width: 49%;
+    }
+
+    .our__mission {
+        height: 30vh;
+        width: 49%;
+    }
+
+    .our__values {
+        height: 30vh;
+        width: 49%;
+    }
+
+    .our__resoures {
+        height: 30vh;
+        width: 49%;
+    }
+
+    .our__heading {
+        font-family: emoji;
+    }
+
+    .realty {
+        margin: 0px;
+    }
+
+    .realty__para {
+        margin: 0px;
+    }
+
+    .a__our__team {
+        height: 81vh;
+    }
+
+    .our__team {
+        height: 19vh;
+        width: 97vw;
+        top: -6%;
+    }
+
+    .team__members {
+        height: 47vh;
+        width: 100%;
+        padding: 10px;
+        top: -14%;
+    }
+
+    .member1 {
+        width: 32%;
+    }
+
+    .a__video {
+        height: 40vh;
+    }
+
+    .results__heading {
+        width: 17vw;
+    }
+
+    .a__total {
+        height: 19vh;
+        width: 96vw;
+        flex-wrap: wrap;
+    }
+
+    .count1 {
+        color: white;
+        text-align: center;
+    }
+
+    .count__heading {
+        font-size: 30px;
+    }
+
+    .count__para {
+        font-size: 12px;
+    }
+}
