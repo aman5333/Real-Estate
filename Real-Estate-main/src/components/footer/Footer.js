@@ -48,7 +48,7 @@ const Footer = () => {
       <hr></hr>
         <div class="copyright">
         <FaRegCopyright /><span>2024 MADE BY</span><div class="aman_logo">
-      </div><span>A_S_P CASTING</span>
+      </div><span>A_V_M CASTING</span>
   </div>
     </>
   )

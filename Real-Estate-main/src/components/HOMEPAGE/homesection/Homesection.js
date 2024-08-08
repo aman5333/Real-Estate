@@ -6,7 +6,7 @@ import spic4 from './sectionpic3.jpg'
 import spic5 from './sectionpic4.avif'
 import spic6 from './sectionpic5.jpg'
 import spic7 from './sectionpic6.jpeg'
-import spic8 from './sectionpic8.webp'
+import spic8 from './sectionpic8.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from 'react'

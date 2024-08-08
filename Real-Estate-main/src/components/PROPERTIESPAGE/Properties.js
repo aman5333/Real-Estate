@@ -27,9 +27,8 @@ const Properties = () => {
   return (
     <>
      <div className='p__main'>
-      <img src='https://lifencolors.in/cdn/shop/files/green-living-room-wallpaper.jpg?v=1706098026&width=1500' alt='something went wrong'></img>
-      <h1 className='p__main__heading'>Top Real Estate
-      Listings in San Jose</h1>
+      <img src='https://images5.alphacoders.com/647/thumb-1920-647570.jpg' alt='something went wrong'></img>
+      <h1 className='p__main__heading'>Top Real Estate</h1>
       <form className='p__form'>
         <div className='form__center'>
           <input type='text' className='p__input input1' placeholder='Enter yor Address,state,city,area pin code' ></input>

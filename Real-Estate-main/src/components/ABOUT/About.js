@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div className="a__main">
         <img
-          src="https://www.decorpot.com/images/interior-designers-in-pune.jpg"
+          src="https://png.pngtree.com/thumb_back/fw800/background/20240719/pngtree-luxury-interior-with-colorful-art-4k-computer-wallpaper-image_16018610.jpg"
           alt="somting went wrong"
         ></img>
         <p className="a__para">Get To Know Our Talented Team.</p>

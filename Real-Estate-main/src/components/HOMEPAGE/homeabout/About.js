@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import pic1 from './pic1.jpg'
-import pic2 from './pic2.jpg'
-import pic3 from './pic3.jpg'
+import pic2 from './pic2.webp'
+import pic3 from './pic3.webp'
 import AOS from "aos";
 import "aos/dist/aos.css";
 

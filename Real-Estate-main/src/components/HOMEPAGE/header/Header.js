@@ -15,8 +15,7 @@ const Header = () => {
       <div className='header__video'>
           <video src={video} autoPlay loop muted></video>
           <div className='header__para'>
-            <h1>Top Real Estate
-            Listings in San Jose</h1>
+            <h1>Top Real Estate</h1>
           </div>
       </div>
       <About/>
